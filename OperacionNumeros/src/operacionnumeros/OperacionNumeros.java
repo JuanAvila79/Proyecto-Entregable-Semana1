@@ -21,14 +21,14 @@ public class OperacionNumeros {
         String opc = null;
 
         do {
-            System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n");
-            System.out.println(" ****** Menu ****** \n");
-            System.out.println(" ****** 1.- Suma ****** \n");
-            System.out.println(" ****** 2.- Resta ****** \n");
-            System.out.println(" ****** 3.- Multiplicación ****** \n");
-            System.out.println(" ****** 4.- División ****** \n");
-            System.out.println(" ****** 5.- Salir. ****** \n");
-            opc = JOptionPane.showInputDialog("Ingrese una Opción : ");
+            // opc = JOptionPane.showInputDialog("Ingrese una Opción : ");
+            opc = JOptionPane.showInputDialog("   ****** Menu ******   \n"
+                    +"1.- Suma. \n"
+                    +"2.- Resta. \n"
+                    +"3.- Multiplicación. \n"
+                    +"4.- División. \n"
+                    +"5.- Salir. \n");
+            
 
             switch (opc) {
                 case "1":
